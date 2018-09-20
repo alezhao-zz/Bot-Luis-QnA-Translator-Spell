@@ -1,0 +1,1 @@
+# Bot-Luis-QnA-Translator-Spell
