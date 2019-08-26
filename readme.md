@@ -66,7 +66,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
      - Entry your **[Bot Service Name],** entry **[App Name]** in **App name** section, choose lab provided **[Azure Subscription]** in **Subscription** section, select **East Asia** at **Location** section, click **Bot template** section, select **SDKv3** with **Basic C#** template, click **Select.** Click and create new app service plan in **App service plan/Location** section, select **East Asia** at **Location** section at output panel.	
 
-       ![](https://iothubstorageaccts.blob.core.windows.net/botpic/3.png)
+       ![](https://iothubstorageaccts.blob.core.windows.net/botpic/3.png) 
 
      - Create New **[App Storage]** in **App Storage** section
 
