@@ -56,7 +56,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
 3. Create a Web App Bot Service
 
-4. - Create a new **Resource Groups** `BOTRG` click Add at top panel. (remember `BOTRG`, please create all of services within this resource group)
+   - Create a new **Resource Groups** `BOTRG` click Add at top panel. (remember `BOTRG`, please create all of services within this resource group)
 
    - Then entry `Web App bot`. A new blade will open with information about the `Web App Bot`
 
@@ -64,13 +64,9 @@ Estimated time to complete this lab:  **90** **minutes**.
 
      ![](https://iothubstorageaccts.blob.core.windows.net/botpic/2.png)
 
-     - Entry your **[Bot Service Name],** entry **[App Name]** in **App name** section, choose lab provided **[Azure Subscription]** in **Subscription** section, select **East Asia** at **Location** section, click **Bot template** section, select **SDKv3** with **Basic C#** template, click **Select.** Click and create new app service plan in **App service plan/Location** section, select **East Asia** at **Location** section at output panel.	
+     - Entry your **[Bot Service Name],** entry **[App Name]** in **App name** section, choose lab provided **[Azure Subscription]** in **Subscription** section, select **East Asia** at **Location** section, click **Bot template** section, select **Basic Bot(C#)** template, click **Select.** Click and create new app service plan in **App service plan/Location** section, select **East Asia** at **Location** section at output panel.	
 
        ![](https://iothubstorageaccts.blob.core.windows.net/botpic/3.png) 
-
-     - Create New **[App Storage]** in **App Storage** section
-
-       ![](https://iothubstorageaccts.blob.core.windows.net/botpic/4.png)
 
      - Unable **Application Insights** currently
 
@@ -78,13 +74,17 @@ Estimated time to complete this lab:  **90** **minutes**.
 
      - Click **Create**
 
-   - Click upper **Notification** link of right-hand, if resource created successfully, click **Go To Resource** to open service you just created.
+   - Click upper **Notification** link of right-hand, if resource created successfully, check if bot service created successfully. 
 
      ![](https://iothubstorageaccts.blob.core.windows.net/botpic/6.png)
 
-   - Click **Application Settings** under **App Service Settings** section, copy value of `AzureWebJobsStorage` to C:\lab\config.txt 
+   - Create a new **Azure Storage Account**, select **Resource Groups** `BOTRG` just created. Entry `bootcampbotsa` at **Storage account name** 
 
-     ![](https://iothubstorageaccts.blob.core.windows.net/botpic/7.png)
+     ![](https://iothubstorageaccts.blob.core.windows.net/botpic/storage.PNG) 
+
+   - Click **Access Keys** panel in `bootcampbotsa` just created. Copy **Connection string** section value to C:\lab\config.txt 
+
+     ![](https://iothubstorageaccts.blob.core.windows.net/botpic/storage2.PNG)
 
      ![](https://iothubstorageaccts.blob.core.windows.net/botpic/40.png)
 
